@@ -10,3 +10,7 @@ add_executable(w4a1 "week4-app1.cpp")
 add_executable(w4a2 "week4-app2.cpp")
 add_executable(w5a1 "week5-app1.cpp")
 add_executable(w5a2 "week5-app2.cpp")
+# week 6 was a holiday due to the Republic Day
+add_executable(w7mt1 "week7-mt1.cpp")
+add_executable(w8a1 "week8-app1.cpp")
+add_executable(w8a2 "week8-app2.cpp")
