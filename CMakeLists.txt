@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 4.0)
+
 project(CS321)
 
 SET(CMAKE_CXX_STANDARD 23)
@@ -26,3 +28,4 @@ add_executable(w12exercise "week12-exercise.cpp")
 add_executable(w13mt2 "week13-mt2.cpp")
 add_executable(w14a1 "week14-app1.cpp")
 add_executable(w14a2 "week14-app2.cpp")
+include_directories("range-v3/include")
