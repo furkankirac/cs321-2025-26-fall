@@ -64,7 +64,7 @@ template<typename C1, typename C2>
 auto zip(const C1& c1, const C2& c2) {
     using ITEM1 = decltype(*c1.begin()); // this is wrong, you need to remove refness at least
     using ITEM2 = decltype(*c2.begin());
-    auto sz = c1.size(); // assume bot containers have same length
+    auto sz = c1.size(); // assume both containers have same length
     using PAIR = std::pair<ITEM1, ITEM2>;
 
     auto zipped = vector<PAIR>();
